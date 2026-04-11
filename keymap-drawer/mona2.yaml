@@ -6,8 +6,8 @@ layers:
   - E
   - R
   - T
-  - {t: BT, h: '0'}
-  - BT CLR ALL
+  - Y
+  - U
   - I
   - O
   - P
@@ -85,7 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
   '2':
   - '!'
   - '@'
