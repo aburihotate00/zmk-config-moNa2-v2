@@ -39,9 +39,9 @@ layers:
   - LEFT ALT
   - BACKSPACE
   - {t: ENTER, h: '1'}
-  - {t: '&to_layer_0 LANG2', h: '4'}
-  - {t: '&to_layer_0 LANG1', h: '4'}
-  - {t: SPACE, h: '3'}
+  - {t: '&to_layer_0 LANG2', h: '3'}
+  - {t: '&to_layer_0 LANG1', h: '3'}
+  - {t: SPACE, h: '2'}
   - {t: '&to_layer_0 ESC', h: '5'}
   '1':
   - '0'
@@ -127,7 +127,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   '3':
   - ESC
@@ -168,9 +168,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '4':
   - {t: ▽, type: trans}
