@@ -1,15 +1,11 @@
 
 manifest:
-  remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name: sayu-hub
-      url-base: https://github.com/sayu-hub
   projects:
     - name: zmk
-      remote: sayu-hub
+      url: https://github.com/sayu-hub/zmk.git
       revision: v0.3-branch
       import: app/west.yml
   self:
     path: config
+
     
