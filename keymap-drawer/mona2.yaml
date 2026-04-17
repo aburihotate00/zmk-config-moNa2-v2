@@ -102,11 +102,11 @@ layers:
   - (
   - )
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+UP ARROW
+  - Ctl+LEFT ARROW
   - '&mkp MB1'
   - '&mkp MB2'
-  - '&mkp MB3'
+  - Ctl+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '|'
