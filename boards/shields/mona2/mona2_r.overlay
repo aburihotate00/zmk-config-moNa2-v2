@@ -69,8 +69,7 @@
     require-prior-idle-ms = <200>;
 };
 
-/ {
-    trackball_central_listener {
+&trackball_central_listener {
     status = "okay";
     compatible = "zmk,input-listener";
     device = <&trackball_central>;
@@ -89,7 +88,6 @@
             <&zip_xy_to_scroll_mapper>,                         //スクロールモードに変更
             <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>,   //スクロールのX軸反転
             <&zip_scroll_scaler 1 10>;                           //スクロール量を1/4倍
-
     };
 
 };
