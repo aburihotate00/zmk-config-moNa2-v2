@@ -68,6 +68,9 @@
     status = "okay";
     device = <&trackball_central>;
 
+    // ここから追加：カーソル移動の設定
+    xy-processors = <&zip_xy_scaler 2 1>; // ★ここを調整します（例：1/1倍）
+
     scroller {
         layers = <6>;
         input-processors = 
