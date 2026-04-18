@@ -68,8 +68,10 @@
     status = "okay";
     device = <&trackball_central>;
 
-    // 全体（カーソル移動）の倍率を2倍に設定
-    input-processors = <&zip_xy_scaler 2 1>;
+    // 「Y軸反転」と「2倍設定」を順番に適用します
+    input-processors = 
+        <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>, // Y軸（上下）を反転
+        <&zip_xy_scaler 2 1>;                         // その後、2倍にする
 
     scroller {
         layers = <6>;
