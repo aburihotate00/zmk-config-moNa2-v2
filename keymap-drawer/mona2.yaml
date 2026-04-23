@@ -198,7 +198,7 @@ layers:
   - F7
   - F8
   - F9
-  - {t: ▽, type: trans}
+  - SLEEP
   - {type: held}
   - '&bootloader'
   - {t: ▽, type: trans}
