@@ -34,7 +34,7 @@ layers:
   - ','
   - .
   - {t: '-', h: LEFT SHIFT}
-  - LCTRL
+  - {t: ESC, h: LCTRL}
   - LEFT WIN
   - LEFT ALT
   - BACKSPACE
@@ -42,7 +42,7 @@ layers:
   - {t: '&to_layer_0 LANG2', h: '3'}
   - {t: '&to_layer_0 LANG1', h: '3'}
   - {t: SPACE, h: '2'}
-  - {t: ESC, h: '5'}
+  - {t: Sft+ENTER, h: '5'}
   '1':
   - '0'
   - '1'
