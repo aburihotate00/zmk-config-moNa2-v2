@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - Gui+Z
+  - Gui+Sft+Z
   - H
   - J
   - K
@@ -145,7 +145,7 @@ layers:
   - DOWN ARROW
   - RIGHT ARROW
   - HOME
-  - {t: ▽, type: trans}
+  - Gui+Z
   - HOME
   - LEFT ARROW
   - DOWN ARROW
