@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - Gui+Sft+Z
+  - Gui+Alt+Z
   - H
   - J
   - K
@@ -157,7 +157,7 @@ layers:
   - LEFT SHIFT
   - Sft+Gui+RIGHT ARROW
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+Gui+Z
   - Sft+Gui+LEFT ARROW
   - DELETE
   - PAGE UP
