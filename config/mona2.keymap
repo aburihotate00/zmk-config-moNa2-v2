@@ -33,6 +33,11 @@
             bindings = <&kp TAB>;
             key-positions = <11 12>;
         };
+
+        z {
+            bindings = <&none>;
+            key-positions = <17 18 19 29 30>;
+        };
     };
 
     macros {
