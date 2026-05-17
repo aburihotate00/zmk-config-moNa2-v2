@@ -86,7 +86,7 @@
     input-processors = 
         <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>, // Y軸（上下）を反転
         <&zip_xy_scaler 7 1>,                         // カーソル倍率
-        <&zip_temp_layer 5 1500>;
+        <&zip_temp_layer 5 2000>;
 
     scroller {
         layers = <6>;
