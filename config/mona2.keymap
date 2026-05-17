@@ -157,13 +157,3 @@
         };
     };
 };
-
-/ {
-    mkp_input_listener: mkp_input_listener {
-        status = "okay";
-        compatible = "zmk,input-listener";
-        device = <&mkp>;
-
-        input-processors = <&zip_temp_layer 5 1500>;
-    };
-};
