@@ -81,7 +81,7 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R          &kp T                                                          &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp Q             &kp W         &kp E         &kp R          &kp T                                                          &kp Y        &kp U  &kp I      &kp O    &lt 6 P
 &kp A             &kp S         &kp D         &kp F          &kp G                                  &kp LG(LA(Z))           &kp H        &kp J  &kp K      &kp L    &lt 6 QUESTION
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V          &kp B        &lt 4 TAB                 &kp SLASH               &kp N        &kp M  &kp COMMA  &kp DOT  &mt LEFT_SHIFT MINUS
 &mt LCTRL ESC     &kp LEFT_WIN  &kp LEFT_ALT  &kp BACKSPACE  &lt 1 ENTER  &lt_to_layer_0 3 LANG2    &lt_to_layer_0 3 LANG1  &lt 2 SPACE                             &lt 5 LS(ENTER)
@@ -93,8 +93,8 @@
         layer_1 {
             bindings = <
 &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &mt LG(RS(PLUS)) PLUS                                &trans     &kp HASH              &kp AMPERSAND          &kp AT_SIGN  &trans
-&kp PERIOD    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS                             &trans         &trans     &kp EXCLAMATION       &kp COLON              &kp TILDE    &kp UNDERSCORE
-&kp COMMA     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp EQUAL              &kp LG(TAB)    &trans         &kp SLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT  &kp LEFT_SHIFT
+&kp PERIOD    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS                             &kp LG(Z)      &trans     &kp EXCLAMATION       &kp COLON              &kp TILDE    &kp UNDERSCORE
+&kp COMMA     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp EQUAL              &kp LG(TAB)    &kp LS(LG(Z))  &kp SLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT  &kp LEFT_SHIFT
 &kp ASTERISK  &trans        &kp NUMBER_0  &kp LEFT_GUI  &trans                 &trans         &kp BACKSPACE  &kp ENTER                                                            &trans
             >;
 
@@ -136,10 +136,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans            &trans  &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB4  &mkp MB5  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                    &trans           &kp LC(LEFT)  &kp LC(UP)  &kp LC(RIGHT)    &trans
+&trans  &trans  &trans  &trans  &trans            &trans  &kp LS(LC(TAB))  &mkp MB1      &mkp MB2    &kp LS(LC(TAB))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans           &mkp MB4      &mkp MB5    &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                                      &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -154,6 +154,24 @@
             >;
 
             sensor-bindings = <&scroll_up_down>;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
+            >;
+        };
+
+        layer_8 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
+            >;
         };
     };
 };
