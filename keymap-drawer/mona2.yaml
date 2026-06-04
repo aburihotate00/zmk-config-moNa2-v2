@@ -242,7 +242,7 @@ layers:
   - Gui+LEFT
   - Gui+RIGHT
   - {t: ▽, type: trans}
-  - Ctl+DOWN
+  - Ctl+UP
   - Gui+V
   - {t: ▽, type: trans}
   - '&mkp MB4'
