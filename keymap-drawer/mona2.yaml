@@ -37,7 +37,7 @@ layers:
   - {t: ESC, h: LCTRL}
   - LEFT WIN
   - LEFT ALT
-  - {t: LSHIFT, h: '5'}
+  - LSHIFT
   - {t: SPACE, h: '1'}
   - {t: '&to_layer_0 CAPS', h: '3'}
   - BACKSPACE
@@ -219,7 +219,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+Sft+TAB
-  - Ctl+Sft+TAB
+  - Sft+TAB
   - {t: ▽, type: trans}
   - Sft+Gui+4
   - Ctl+LEFT
@@ -235,7 +235,7 @@ layers:
   - Sft+Ctl+TAB
   - '&mkp MB1'
   - '&mkp MB2'
-  - Sft+Ctl+TAB
+  - Sft+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -252,12 +252,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   '6':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
