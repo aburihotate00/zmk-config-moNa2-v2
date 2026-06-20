@@ -137,7 +137,7 @@
         MOUSE {
             bindings = <
 &trans  &trans        &kp LC(LS(TAB))  &kp LS(TAB)    &trans                                  &kp LS(LG(NUMBER_4))  &kp LC(LEFT)  &kp LC(UP)  &kp LC(RIGHT)  &kp ESC
-&trans  &kp LC(LEFT)  &mkp MB2         &mkp MB1       &kp LC(RIGHT)                &kp LG(C)  &kp LS(LC(TAB))       &mkp MB1      &mkp MB2    &kp LS(TAB)    &trans
+&trans  &kp LC(LEFT)  &mkp MB2         &mkp MB1       &kp LC(RIGHT)                &kp LG(C)  &kp LS(LC(TAB))       &mkp MB1      &mkp MB2    &kp LC(TAB)    &trans
 &trans  &trans        &kp LG(LEFT)     &kp LG(RIGHT)  &trans         &kp LC(UP)    &kp LG(V)  &trans                &mkp MB4      &mkp MB5    &trans         &trans
 &trans  &trans        &trans           &trans         &trans         &trans        &trans     &trans                                                         &trans
             >;
