@@ -235,7 +235,7 @@ layers:
   - Sft+Ctl+TAB
   - '&mkp MB1'
   - '&mkp MB2'
-  - Sft+TAB
+  - Ctl+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
